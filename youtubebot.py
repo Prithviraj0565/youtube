@@ -10,7 +10,7 @@ from googleapiclient.errors import HttpError
 
 # Initialize the Telegram bot
 
-bot_token = 'YOUR_BOT_TOKEN_HERE'
+bot_token = '6166146021:AAGIiEbk75WZDuom3p3CoZYN_NQCdP5H9iU'
 
 bot = telegram.Bot(token=bot_token)
 
