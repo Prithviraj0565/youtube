@@ -16,7 +16,7 @@ bot = telegram.Bot(token=bot_token)
 
 # Initialize the Google API client
 
-creds = service_account.Credentials.from_service_account_file('PATH_TO_YOUR_SERVICE_ACCOUNT_JSON_FILE')
+creds = service_account.Credentials.from_service_account_file('client_secrets.json')
 
 youtube = build('youtube', 'v3', credentials=creds)
 
